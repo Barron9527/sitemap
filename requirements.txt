@@ -27,7 +27,7 @@ soupsieve==2.5
 tk==0.1.0
 tzdata==2023.3
 urllib3==1.26.18
-vc==14.2
+vc==2018.7.10
 vs2015_runtime==14.27.29016
 webencodings==0.5.1
 wheel==0.41.2
