@@ -23,7 +23,7 @@ requests==2.31.0
 setuptools==68.0.0
 six==1.16.0
 soupsieve==2.5
-sqlite==3.41.2
+# sqlite==3.41.2
 tk==8.6.12
 tzdata==2023c
 urllib3==1.26.18
