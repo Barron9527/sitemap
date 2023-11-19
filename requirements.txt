@@ -24,7 +24,7 @@ setuptools==68.0.0
 six==1.16.0
 soupsieve==2.5
 # sqlite==3.41.2
-tk==8.6.12
+tk==0.1.0
 tzdata==2023c
 urllib3==1.26.18
 vc==14.2
