@@ -25,7 +25,7 @@ six==1.16.0
 soupsieve==2.5
 # sqlite==3.41.2
 tk==0.1.0
-tzdata==2023c
+tzdata==2023.3
 urllib3==1.26.18
 vc==14.2
 vs2015_runtime==14.27.29016
