@@ -1,6 +1,9 @@
 name: Google SiteMap Push
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每6小时触发一次
+    
   push:
     branches:
       - main  # 你的主分支，可以根据需要更改
