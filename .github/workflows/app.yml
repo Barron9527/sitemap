@@ -2,7 +2,7 @@ name: Google SiteMap Push
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # 每6小时触发一次
+    - cron: '0 */7 * * *'  # 每7小时触发一次
     
   push:
     branches:
