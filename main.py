@@ -11,6 +11,8 @@ def execute_curl():
         subprocess.run(["curl", "https://www.google.com/ping?sitemap=https://raw.githubusercontent.com/Barron9527/sitemap/main/sitemap.xml"], check=True)
         subprocess.run(["curl", "https://www.google.com/ping?sitemap=https://ads.6af403a09ca3.com/sitemap.xml"], check=True)
         subprocess.run(["curl", "https://www.google.com/search?q=https://ads.6af403a09ca3.com"], check=True)
+        subprocess.run(["curl", "https://www.google.com/ping?sitemap=https://google.6af403a09ca3.com/sitemap.xml"], check=True)
+        subprocess.run(["curl", "https://www.google.com/search?q=https://google.6af403a09ca3.com"], check=True)
         print("\n成功推送！No." + str(num) + "\n")
     except subprocess.CalledProcessError as e:
         print(f"Error during curl execution: {e}")
